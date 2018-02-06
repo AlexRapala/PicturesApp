@@ -1,0 +1,16 @@
+<template>
+  <div id="errorMsg" innerhtml.bind="loginError"></div>
+  <div class="input-field col s12">
+    <input value.bind="email" type="email" autofocus class="validate" id="email"></input>
+    <label for="email">Email</label>
+  </div>
+  <div class="input-field col s12">
+    <input value.bind="password" type="password" id="password"></input>
+    <label for="password">Password</label>
+  </div>
+  
+  <div class="button-wrapper">
+    <button class="waves-effect waves-light btn" click.trigger="login()">Login</button>
+    <span class="waves-effect waves-light btn" click.trigger="showRegister()">Register</span>
+  </div>
+</template>

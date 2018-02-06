@@ -1,0 +1,277 @@
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"20:04:40"}
+{"level":"info","message":"mongoose connected to the database","timestamp":"20:04:41"}
+{"level":"info","message":"Request from ::1","timestamp":"20:15:33"}
+{"level":"verbose","message":"Created a user asdf","timestamp":"20:15:33"}
+{"level":"error","message":"WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error collection: PicturesApp-dev.users index: email_1 dup key: { : \\\"asdf\\\" }\",\"op\":{\"fname\":\"asdf\",\"lname\":\"asdf\",\"email\":\"asdf\",\"password\":\"$2a$10$simrBnpQST.Eqn3z4g90i.gF2c7zF2RavoOn8Cyh.8eTOqC7j02ka\",\"_id\":\"5a6154c50577801f60d4576a\",\"dateRegistered\":\"2018-01-19T02:15:33.377Z\",\"__v\":0}})\n    at Function.MongoError.create (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb-core\\lib\\error.js:31:11)\n    at toError (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\utils.js:139:22)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\collection.js:668:23\n    at handleCallback (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\utils.js:120:56)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\bulk\\unordered.js:465:9\n    at handleCallback (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\utils.js:120:56)\n    at resultHandler (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\bulk\\unordered.js:413:5)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb-core\\lib\\connection\\pool.js:469:18\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)\nFrom previous event:\n    at model.wrappedPointCut [as save] (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongoose\\lib\\services\\model\\applyHooks.js:139:23)\n    at D:\\Projects\\PicturesApp\\Server\\app\\controllers\\users.js:19:10\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)","timestamp":"20:15:33"}
+{"level":"info","message":"Request from ::1","timestamp":"20:15:37"}
+{"level":"info","message":"Request from ::1","timestamp":"20:15:37"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"20:15:37"}
+{"level":"info","message":"Request from ::1","timestamp":"20:16:31"}
+{"level":"info","message":"Request from ::1","timestamp":"20:16:31"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"20:16:31"}
+{"level":"info","message":"Request from ::1","timestamp":"20:16:41"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"20:16:41"}
+{"level":"info","message":"Request from ::1","timestamp":"20:16:43"}
+{"level":"verbose","message":"Get Pictures in a Gallery 5a6155090577801f60d4576b","timestamp":"20:16:43"}
+{"level":"info","message":"Request from ::1","timestamp":"20:16:47"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"20:16:47"}
+{"level":"info","message":"Request from ::1","timestamp":"20:16:52"}
+{"level":"verbose","message":"Get Pictures in a Gallery 5a6155090577801f60d4576b","timestamp":"20:16:52"}
+{"level":"info","message":"Request from ::1","timestamp":"20:16:53"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"20:16:53"}
+{"level":"info","message":"Request from ::1","timestamp":"20:16:58"}
+{"level":"verbose","message":"Get Pictures in a Gallery 5a6155090577801f60d4576b","timestamp":"20:16:58"}
+{"level":"info","message":"Request from ::1","timestamp":"20:16:59"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"20:16:59"}
+{"level":"info","message":"Request from ::1","timestamp":"20:16:59"}
+{"level":"verbose","message":"Get Pictures in a Gallery 5a6155090577801f60d4576b","timestamp":"20:16:59"}
+{"level":"info","message":"Request from ::1","timestamp":"20:17:00"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"20:17:00"}
+{"level":"info","message":"Request from ::1","timestamp":"20:39:27"}
+{"level":"info","message":"Request from ::1","timestamp":"20:39:27"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"20:39:27"}
+{"level":"info","message":"Request from ::1","timestamp":"21:08:57"}
+{"level":"info","message":"Request from ::1","timestamp":"21:11:04"}
+{"level":"info","message":"Request from ::1","timestamp":"21:11:05"}
+{"level":"info","message":"Request from ::1","timestamp":"21:11:35"}
+{"level":"info","message":"Request from ::1","timestamp":"21:13:15"}
+{"level":"info","message":"Request from ::1","timestamp":"21:13:15"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"21:13:15"}
+{"level":"info","message":"Request from ::1","timestamp":"21:18:14"}
+{"level":"info","message":"Request from ::1","timestamp":"21:24:35"}
+{"level":"info","message":"Request from ::1","timestamp":"21:24:35"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"21:24:35"}
+{"level":"info","message":"Request from ::1","timestamp":"21:24:43"}
+{"level":"info","message":"Request from ::1","timestamp":"21:28:03"}
+{"level":"info","message":"Request from ::1","timestamp":"21:28:07"}
+{"level":"error","message":"","timestamp":"21:28:07"}
+{"level":"info","message":"Request from ::1","timestamp":"21:37:22"}
+{"level":"info","message":"Request from ::1","timestamp":"21:46:46"}
+{"level":"verbose","message":"Created a user asdf","timestamp":"21:46:46"}
+{"level":"error","message":"WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error collection: PicturesApp-dev.users index: email_1 dup key: { : \\\"asdf\\\" }\",\"op\":{\"fname\":\"asdf\",\"lname\":\"asdf\",\"email\":\"asdf\",\"password\":\"$2a$10$FGmXt17P1nE7W/PBCPSTKu/pCxncrlbV35A1WhF5rDAJYN9y0CKQ6\",\"_id\":\"5a616a260577801f60d4576c\",\"dateRegistered\":\"2018-01-19T03:46:46.271Z\",\"__v\":0}})\n    at Function.MongoError.create (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb-core\\lib\\error.js:31:11)\n    at toError (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\utils.js:139:22)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\collection.js:668:23\n    at handleCallback (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\utils.js:120:56)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\bulk\\unordered.js:465:9\n    at handleCallback (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\utils.js:120:56)\n    at resultHandler (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\bulk\\unordered.js:413:5)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb-core\\lib\\connection\\pool.js:469:18\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)\nFrom previous event:\n    at model.wrappedPointCut [as save] (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongoose\\lib\\services\\model\\applyHooks.js:139:23)\n    at D:\\Projects\\PicturesApp\\Server\\app\\controllers\\users.js:19:10\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)","timestamp":"21:46:46"}
+{"level":"info","message":"Request from ::1","timestamp":"21:46:54"}
+{"level":"info","message":"Request from ::1","timestamp":"21:46:54"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"21:46:54"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"21:48:35"}
+{"level":"info","message":"mongoose connected to the database","timestamp":"21:48:35"}
+{"level":"info","message":"Request from ::1","timestamp":"21:49:39"}
+{"level":"info","message":"Request from ::1","timestamp":"21:49:39"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"21:49:39"}
+{"level":"info","message":"Request from ::1","timestamp":"21:50:08"}
+{"level":"verbose","message":"Created a user asdf","timestamp":"21:50:08"}
+{"level":"error","message":"WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error collection: PicturesApp-dev.users index: email_1 dup key: { : \\\"asdf\\\" }\",\"op\":{\"fname\":\"asdf\",\"lname\":\"asdf\",\"email\":\"asdf\",\"password\":\"$2a$10$jCigFP0JgkOWU78QqIq0qu61cqMkOxWzgdB8cL2LwXeCTAFGXPl6.\",\"_id\":\"5a616af0d058bc12140307de\",\"dateRegistered\":\"2018-01-19T03:50:08.769Z\",\"__v\":0}})\n    at Function.MongoError.create (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb-core\\lib\\error.js:31:11)\n    at toError (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\utils.js:139:22)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\collection.js:668:23\n    at handleCallback (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\utils.js:120:56)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\bulk\\unordered.js:465:9\n    at handleCallback (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\utils.js:120:56)\n    at resultHandler (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\bulk\\unordered.js:413:5)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb-core\\lib\\connection\\pool.js:469:18\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)\nFrom previous event:\n    at model.wrappedPointCut [as save] (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongoose\\lib\\services\\model\\applyHooks.js:139:23)\n    at D:\\Projects\\PicturesApp\\Server\\app\\controllers\\users.js:19:10\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)","timestamp":"21:50:08"}
+{"level":"info","message":"Request from ::1","timestamp":"21:51:46"}
+{"level":"verbose","message":"Created a user seacow","timestamp":"21:51:46"}
+{"level":"info","message":"Request from ::1","timestamp":"21:51:46"}
+{"level":"verbose","message":"Created a user seacow","timestamp":"21:51:46"}
+{"level":"error","message":"WriteError({\"code\":11000,\"index\":0,\"errmsg\":\"E11000 duplicate key error collection: PicturesApp-dev.users index: email_1 dup key: { : \\\"seacow\\\" }\",\"op\":{\"fname\":\"seacow\",\"lname\":\"seacow\",\"email\":\"seacow\",\"password\":\"$2a$10$4V94KGoqfNLh8VGGI44x1OcDlBtsZdluEbjI149jWhdaQtsU9hi9W\",\"_id\":\"5a616b52d058bc12140307e0\",\"dateRegistered\":\"2018-01-19T03:51:46.797Z\",\"__v\":0}})\n    at Function.MongoError.create (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb-core\\lib\\error.js:31:11)\n    at toError (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\utils.js:139:22)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\collection.js:668:23\n    at handleCallback (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\utils.js:120:56)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\bulk\\unordered.js:465:9\n    at handleCallback (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\utils.js:120:56)\n    at resultHandler (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb\\lib\\bulk\\unordered.js:413:5)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongodb-core\\lib\\connection\\pool.js:469:18\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)\nFrom previous event:\n    at model.wrappedPointCut [as save] (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongoose\\lib\\services\\model\\applyHooks.js:139:23)\n    at D:\\Projects\\PicturesApp\\Server\\app\\controllers\\users.js:19:10\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)","timestamp":"21:51:46"}
+{"level":"info","message":"Request from ::1","timestamp":"21:51:56"}
+{"level":"info","message":"Request from ::1","timestamp":"21:51:57"}
+{"level":"verbose","message":"Get Galleries 5a616b52d058bc12140307df","timestamp":"21:51:57"}
+{"level":"info","message":"Request from ::1","timestamp":"21:52:31"}
+{"level":"verbose","message":"Created a user bitch","timestamp":"21:52:31"}
+{"level":"info","message":"Request from ::1","timestamp":"21:54:42"}
+{"level":"info","message":"Request from ::1","timestamp":"21:54:42"}
+{"level":"info","message":"Request from ::1","timestamp":"21:54:51"}
+{"level":"info","message":"Request from ::1","timestamp":"21:54:52"}
+{"level":"info","message":"Request from ::1","timestamp":"21:54:52"}
+{"level":"info","message":"Request from ::1","timestamp":"21:54:52"}
+{"level":"info","message":"Request from ::1","timestamp":"21:54:53"}
+{"level":"info","message":"Request from ::1","timestamp":"21:55:00"}
+{"level":"info","message":"Request from ::1","timestamp":"21:55:00"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"21:55:00"}
+{"level":"info","message":"Request from ::1","timestamp":"21:55:02"}
+{"level":"verbose","message":"Get Pictures in a Gallery 5a6155090577801f60d4576b","timestamp":"21:55:02"}
+{"level":"info","message":"Request from ::1","timestamp":"21:55:03"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"21:55:03"}
+{"level":"info","message":"Request from ::1","timestamp":"21:55:28"}
+{"level":"info","message":"Request from ::1","timestamp":"21:55:28"}
+{"level":"verbose","message":"Get Galleries 5a616b7fd058bc12140307e1","timestamp":"21:55:28"}
+{"level":"info","message":"Request from ::1","timestamp":"21:55:36"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"21:55:36"}
+{"level":"info","message":"Request from ::1","timestamp":"21:55:45"}
+{"level":"verbose","message":"Update gallery","timestamp":"21:55:45"}
+{"level":"info","message":"Request from ::1","timestamp":"21:55:46"}
+{"level":"info","message":"Delete this Gallery","timestamp":"21:55:46"}
+{"level":"info","message":"Request from ::1","timestamp":"21:55:51"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"21:55:51"}
+{"level":"info","message":"Request from ::1","timestamp":"21:55:54"}
+{"level":"verbose","message":"Get Pictures in a Gallery 5a616c47d058bc12140307e3","timestamp":"21:55:54"}
+{"level":"info","message":"Request from ::1","timestamp":"21:56:19"}
+{"level":"verbose","message":"Add a picture to a gallery","timestamp":"21:56:19"}
+{"level":"info","message":"Request from ::1","timestamp":"21:56:19"}
+{"level":"info","message":"Request from ::1","timestamp":"21:56:19"}
+{"level":"verbose","message":"Upload a picture 5a616c63d058bc12140307e4 and 5a616c47d058bc12140307e3","timestamp":"21:56:19"}
+{"level":"info","message":"Request from ::1","timestamp":"21:56:23"}
+{"level":"verbose","message":"Get Pictures in a Gallery 5a616c47d058bc12140307e3","timestamp":"21:56:23"}
+{"level":"info","message":"Request from ::1","timestamp":"21:56:23"}
+{"level":"info","message":"Request from ::1","timestamp":"21:56:30"}
+{"level":"verbose","message":"Get Pictures in a Gallery 5a616c47d058bc12140307e3","timestamp":"21:56:30"}
+{"level":"info","message":"Request from ::1","timestamp":"21:56:31"}
+{"level":"verbose","message":"Get Galleries 5a616b7fd058bc12140307e1","timestamp":"21:56:31"}
+{"level":"info","message":"Request from ::1","timestamp":"21:56:34"}
+{"level":"verbose","message":"Get Pictures in a Gallery 5a616c47d058bc12140307e3","timestamp":"21:56:34"}
+{"level":"info","message":"Request from ::1","timestamp":"21:56:52"}
+{"level":"info","message":"Request from ::1","timestamp":"21:57:11"}
+{"level":"info","message":"Request from ::1","timestamp":"21:57:11"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"21:57:11"}
+{"level":"info","message":"Request from ::1","timestamp":"21:57:13"}
+{"level":"verbose","message":"Get Pictures in a Gallery 5a6155090577801f60d4576b","timestamp":"21:57:13"}
+{"level":"info","message":"Request from ::1","timestamp":"21:57:13"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"21:57:13"}
+{"level":"info","message":"Request from ::1","timestamp":"21:57:15"}
+{"level":"verbose","message":"Get Pictures in a Gallery 5a6155090577801f60d4576b","timestamp":"21:57:15"}
+{"level":"info","message":"Request from ::1","timestamp":"21:59:06"}
+{"level":"info","message":"Request from ::1","timestamp":"21:59:06"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"21:59:06"}
+{"level":"info","message":"Request from ::1","timestamp":"21:59:12"}
+{"level":"info","message":"Request from ::1","timestamp":"21:59:12"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"21:59:12"}
+{"level":"info","message":"Request from ::1","timestamp":"21:59:21"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"21:59:21"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"11:07:47"}
+{"level":"info","message":"mongoose connected to the database","timestamp":"11:07:48"}
+{"level":"info","message":"Request from ::1","timestamp":"11:10:36"}
+{"level":"info","message":"Request from ::1","timestamp":"11:10:36"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"11:10:36"}
+{"level":"info","message":"Request from ::1","timestamp":"11:12:47"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"11:12:47"}
+{"level":"info","message":"Request from ::1","timestamp":"11:14:47"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"11:14:47"}
+{"level":"info","message":"Request from ::1","timestamp":"11:16:24"}
+{"level":"info","message":"Request from ::1","timestamp":"11:18:51"}
+{"level":"verbose","message":"Created a user ","timestamp":"11:18:51"}
+{"level":"error","message":"ValidationError: password: Path `password` is required., email: Path `email` is required., lname: Path `lname` is required., fname: Path `fname` is required.\n    at new ValidationError (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongoose\\lib\\error\\validation.js:28:11)\n    at model.Document.invalidate (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongoose\\lib\\document.js:1675:32)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongoose\\lib\\document.js:1547:17\n    at validate (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongoose\\lib\\schematype.js:784:7)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongoose\\lib\\schematype.js:829:11\n    at Array.forEach (<anonymous>)\n    at SchemaString.SchemaType.doValidate (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongoose\\lib\\schematype.js:789:19)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\mongoose\\lib\\document.js:1545:9\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)\nFrom previous event:\n    at model.wrappedPointCut [as save] (D:\\Projects\\PicturesApp\\Server\\node_modules\\mongoose\\lib\\services\\model\\applyHooks.js:139:23)\n    at D:\\Projects\\PicturesApp\\Server\\app\\controllers\\users.js:19:10\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\Projects\\PicturesApp\\Server\\node_modules\\express\\lib\\router\\index.js:275:10)","timestamp":"11:18:51"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"16:36:34"}
+{"level":"info","message":"mongoose connected to the database","timestamp":"16:36:35"}
+{"level":"info","message":"Request from ::1","timestamp":"16:37:09"}
+{"level":"info","message":"Request from ::1","timestamp":"16:37:10"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:37:10"}
+{"level":"info","message":"Request from ::1","timestamp":"16:37:37"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:37:37"}
+{"level":"info","message":"Request from ::1","timestamp":"16:38:45"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:38:45"}
+{"level":"info","message":"Request from ::1","timestamp":"16:38:46"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:38:46"}
+{"level":"info","message":"Request from ::1","timestamp":"16:38:46"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:38:46"}
+{"level":"info","message":"Request from ::1","timestamp":"16:41:19"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:41:19"}
+{"level":"info","message":"Request from ::1","timestamp":"16:43:25"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:43:25"}
+{"level":"info","message":"Request from ::1","timestamp":"16:43:58"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:43:58"}
+{"level":"info","message":"Request from ::1","timestamp":"16:44:08"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:44:08"}
+{"level":"info","message":"Request from ::1","timestamp":"16:44:15"}
+{"level":"info","message":"Delete this Gallery","timestamp":"16:44:15"}
+{"level":"info","message":"Request from ::1","timestamp":"16:44:30"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:44:30"}
+{"level":"info","message":"Request from ::1","timestamp":"16:44:36"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"16:44:36"}
+{"level":"info","message":"Request from ::1","timestamp":"16:44:47"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"16:44:47"}
+{"level":"info","message":"Request from ::1","timestamp":"16:45:41"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:45:41"}
+{"level":"info","message":"Request from ::1","timestamp":"16:45:42"}
+{"level":"verbose","message":"Get Pictures in a Gallery 5a6274d4c723292bec07c1d3","timestamp":"16:45:42"}
+{"level":"info","message":"Request from ::1","timestamp":"16:45:44"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:45:44"}
+{"level":"info","message":"Request from ::1","timestamp":"16:46:51"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:46:51"}
+{"level":"info","message":"Request from ::1","timestamp":"16:47:34"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:47:34"}
+{"level":"info","message":"Request from ::1","timestamp":"16:48:35"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:48:35"}
+{"level":"info","message":"Request from ::1","timestamp":"16:48:56"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:48:56"}
+{"level":"info","message":"Request from ::1","timestamp":"16:49:28"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:49:28"}
+{"level":"info","message":"Request from ::1","timestamp":"16:50:43"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:50:43"}
+{"level":"info","message":"Request from ::1","timestamp":"16:51:10"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:51:10"}
+{"level":"info","message":"Request from ::1","timestamp":"16:52:02"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:52:02"}
+{"level":"info","message":"Request from ::1","timestamp":"16:53:43"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:53:43"}
+{"level":"info","message":"Request from ::1","timestamp":"16:55:20"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:55:20"}
+{"level":"info","message":"Request from ::1","timestamp":"16:55:22"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:55:22"}
+{"level":"info","message":"Request from ::1","timestamp":"16:55:39"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:55:39"}
+{"level":"info","message":"Request from ::1","timestamp":"16:55:44"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:55:44"}
+{"level":"info","message":"Request from ::1","timestamp":"16:55:48"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:55:48"}
+{"level":"info","message":"Request from ::1","timestamp":"16:55:58"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:55:58"}
+{"level":"info","message":"Request from ::1","timestamp":"16:56:21"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:56:21"}
+{"level":"info","message":"Request from ::1","timestamp":"16:56:27"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:56:27"}
+{"level":"info","message":"Request from ::1","timestamp":"16:56:59"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:56:59"}
+{"level":"info","message":"Request from ::1","timestamp":"16:57:43"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:57:43"}
+{"level":"info","message":"Request from ::1","timestamp":"16:58:10"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:58:10"}
+{"level":"info","message":"Request from ::1","timestamp":"16:58:13"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:58:13"}
+{"level":"info","message":"Request from ::1","timestamp":"16:58:25"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:58:25"}
+{"level":"info","message":"Request from ::1","timestamp":"16:58:54"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"16:58:54"}
+{"level":"info","message":"Request from ::1","timestamp":"17:00:01"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:00:01"}
+{"level":"info","message":"Request from ::1","timestamp":"17:00:49"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:00:49"}
+{"level":"info","message":"Request from ::1","timestamp":"17:00:58"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:00:58"}
+{"level":"info","message":"Request from ::1","timestamp":"17:01:41"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:01:41"}
+{"level":"info","message":"Request from ::1","timestamp":"17:01:52"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:01:52"}
+{"level":"info","message":"Request from ::1","timestamp":"17:01:55"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:01:55"}
+{"level":"info","message":"Request from ::1","timestamp":"17:02:01"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:02:01"}
+{"level":"info","message":"Request from ::1","timestamp":"17:02:18"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:02:18"}
+{"level":"info","message":"Request from ::1","timestamp":"17:02:31"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:02:31"}
+{"level":"info","message":"Request from ::1","timestamp":"17:03:05"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:03:05"}
+{"level":"info","message":"Request from ::1","timestamp":"17:04:18"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:04:18"}
+{"level":"info","message":"Request from ::1","timestamp":"17:04:35"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:04:35"}
+{"level":"info","message":"Request from ::1","timestamp":"17:05:04"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:05:04"}
+{"level":"info","message":"Request from ::1","timestamp":"17:05:24"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:05:24"}
+{"level":"info","message":"Request from ::1","timestamp":"17:05:29"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:05:29"}
+{"level":"info","message":"Request from ::1","timestamp":"17:05:40"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:05:40"}
+{"level":"info","message":"Request from ::1","timestamp":"17:06:52"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:06:52"}
+{"level":"info","message":"Request from ::1","timestamp":"17:07:48"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:07:48"}
+{"level":"info","message":"Request from ::1","timestamp":"17:08:13"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:08:13"}
+{"level":"info","message":"Request from ::1","timestamp":"17:08:40"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:08:40"}
+{"level":"info","message":"Request from ::1","timestamp":"17:08:46"}
+{"level":"info","message":"Delete this Gallery","timestamp":"17:08:46"}
+{"level":"info","message":"Request from ::1","timestamp":"17:09:06"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:09:06"}
+{"level":"info","message":"Request from ::1","timestamp":"17:09:13"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"17:09:13"}
+{"level":"info","message":"Request from ::1","timestamp":"17:10:17"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:10:17"}
+{"level":"info","message":"Request from ::1","timestamp":"17:10:29"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:10:29"}
+{"level":"info","message":"Request from ::1","timestamp":"17:10:36"}
+{"level":"verbose","message":"Get Galleries 5a5e6f88f4a23926d826f4e3","timestamp":"17:10:36"}

@@ -1,0 +1,13 @@
+<template>
+  <div id="content-area">
+    <div class="login-wrapper valign-wrapper">
+      <div class="centered-div">
+        <div class="input-fields-div">
+          <h4>${message}</h4>
+        <compose show.bind="showLogin" view="./components/login.html"></compose>
+        <compose show.bind="!showLogin" view="./components/register.html"></compose>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

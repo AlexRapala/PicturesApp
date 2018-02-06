@@ -1,0 +1,100 @@
+/** Home Page Styles **/
+body, html {
+  height: 100%;
+  background-color: transparent;
+}
+
+.brand-logo:hover {
+  text-decoration: none;
+}
+
+#content-area {
+  background-image: url("http://localhost:9000/src/modules/nature.jpeg");
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-wrapper {
+  height: 100%;
+}
+
+nav a {
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav-wrapper.blue {
+  padding-left: 20px;
+}
+
+.input-field.col label {
+  left: 0 !important;
+}
+
+.input-fields-div h4 {
+  color: #2196F3;
+  margin-bottom:20px;
+  margin-top: 0px;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #2196F3 !important;
+  -webkit-box-shadow: 0 1px 0 0 #2196F3 !important;
+  box-shadow: 0 1px 0 0 #2196F3 !important;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #2196F3 !important;
+}
+
+#errorMsg {
+  color: #f44336;
+}
+
+.btn {
+  background-color: #2196F3 !important;
+}
+
+.btn:hover, .btn:focus {
+  color: #fff;
+}
+
+.centered-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 380px;
+  padding:20px 30px;
+  background-color: #f9f9f9;
+}
+
+.table-secondary {
+  color: #F03434;
+}
+
+/** List Styles **/
+
+.secondary-content {
+  padding-left:20px;
+}
+
+.center-li-text {
+  text-align: center;
+}
+.center-li-text:hover {
+  cursor: pointer;
+}
+
+span i {
+  width: 25px;
+}
+
+.thumbnail {
+  height: 150px;
+  width: auto;
+}
+
+.full-size {
+  width: 100%;
+}
+

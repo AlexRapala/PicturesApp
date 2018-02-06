@@ -1,0 +1,12 @@
+<template>
+  <compose view="./components/navbar.html"></compose>
+  <div class="container">
+    <h2>${message}</h2>
+    <div class="card topMargin">
+        <div class="card-body">
+          <span><i title="Back to Photos" click.trigger="back()" class="fa fa-arrow-left fa-lg" aria-hidden="true"></i></span>
+        </div>
+      </div>
+      <img class="full-size" src="http://localhost:5000/uploads/${picture.galleryId}/${picture.file.fileName}" />
+  <div>
+</template>

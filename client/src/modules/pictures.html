@@ -1,0 +1,13 @@
+<template>
+  <compose view="./components/navbar.html"></compose>
+  <div class="container">
+    <h1>${message}</h1>
+    <div class="card topMargin">
+      <div class="card-body">
+        <span><i title="Back to Galleries" click.trigger="backToGalleries()" class="fa fa-arrow-left fa-lg" aria-hidden="true"></i></span>
+      </div>
+    </div>
+    <compose show.bind="showList" view="./components/pictureList.html"></compose>
+    <compose show.bind="!showList" view="./components/pictureForm.html"></compose>
+  </div>
+</template>

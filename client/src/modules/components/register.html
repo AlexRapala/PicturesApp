@@ -1,0 +1,21 @@
+<template>
+  <div class="input-field col s12">
+    <input value.bind="user.fname" type="text">
+    <label for="fname">First Name</label>
+  </div>
+  <div class="input-field col s12">
+    <input value.bind="user.lname" type="text">
+    <label for="lname">Last Name</label>
+  </div>
+  <div class="input-field col s12">
+    <input value.bind="user.email" type="email">
+    <label for"email">Email</label>
+  </div>
+  <div class="input-field col s12">
+    <input value.bind="user.password" class="form-control" type="password">
+    <label for="password">Password</label>
+  </div>
+  <div class="button-wrapper">
+    <button class="waves-effect waves-light btn" click.trigger="save()">Save</button>
+  </div>
+</template>

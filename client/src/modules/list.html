@@ -1,0 +1,8 @@
+<template>
+  <compose view="./components/navbar.html"></compose>
+  <div class="container">
+  <h1>${message}</h1>
+  <compose show.bind="showList" view="./components/galleryList.html"></compose>
+  <compose show.bind="!showList" view="./components/galleryForm.html"></compose>
+</div>
+</template>
