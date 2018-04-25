@@ -2,8 +2,8 @@
     </div>
     <ul class="collection">
       <li repeat.for = "gallery of galleries.galleriesArray" class="collection-item"><a click.trigger="viewGallery(gallery)" title="View Gallery">${gallery.gallery}</a>
-        <a class="secondary-content"><i title="Delete Gallery" click.trigger="deleteGallery(gallery)" class="fa fa-trash rightMargin" aria-hidden="true"></i></a>
-        <a class="secondary-content"><i title="Edit Gallery" click.trigger="editGallery(gallery)" class="fa fa-pencil rightMargin" aria-hidden="true"></i></a>
+        <a class="secondary-content"><i click.trigger="deleteGallery(gallery)" class="material-icons">delete</i></a>
+        <a class="secondary-content"><i click.trigger="editGallery(gallery)" class="material-icons">create</i></a>
       </li>
       <li click.trigger="createGallery()" class="collection-item">Create New Gallery
           <a class="secondary-content"><i class="material-icons">add</i></a>

@@ -74,8 +74,9 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
 
 /** List Styles **/
 
-.secondary-content {
+.collection .secondary-content {
   padding-left:20px;
+  color: #039be5;
 }
 
 .center-li-text {
