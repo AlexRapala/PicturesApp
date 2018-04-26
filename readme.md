@@ -10,7 +10,6 @@ A Development environment for PicturesApp
 1. run ```npm install``` in server and client folders
 2. run ```grunt``` in the server folder, the server will now run at localhost:5000
 3. run ```au run -w``` in the client folder, the client will now run at localhost:9000
-<<<<<<< HEAD
 
 ## Overview for Server
 - REST APIs are found at [Server/app/controllers](https://github.com/AlexRapala/PicturesApp/tree/master/Server/app/controllers)
