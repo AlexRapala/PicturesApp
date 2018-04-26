@@ -2,7 +2,7 @@
 A Development environment for PicturesApp
 
 ## How to use
-**Dependancies to run**
+**Dependencies**
 - mongodb is installed and running
 - npm is installed and working
 
