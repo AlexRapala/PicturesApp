@@ -99,3 +99,17 @@ span i {
   width: 100%;
 }
 
+.material-icons {
+  cursor: pointer;
+}
+
+ #pictureList .collection .collection-item.avatar .secondary-content {
+  position: initial;
+}
+#pictureList .collection .collection-item.avatar {
+  padding-left: 90px;
+}
+#pictureList .collection .collection-item.avatar:not(.circle-clipper)>.circle,  #pictureList .collection .collection-item.avatar :not(.circle-clipper)>.circle {
+  width: 60px;
+  height: 60px;
+}

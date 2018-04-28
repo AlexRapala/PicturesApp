@@ -1,17 +1,27 @@
 <template>
-  <ul class="collection">
-    <li repeat.for="picture of picture.picturesArray" class="collection-item avatar">
-      <img click.trigger="viewPicture(picture)" src="http://localhost:5000/uploads/${picture.galleryId}/${picture.file.fileName}" class="circle">
-      <span class="title">${picture.picture}</span>
-      <p>${picture.description}</p>
-      <div class="secondary-content">
-      <a><i click.trigger="editPicture(picture)" class="material-icons">create</i></a>
-      <a><i click.trigger="deletePicture(picture)" class="material-icons">delete</i></a>
-    </div>
-    </li>
-    <li click.trigger="addPicture()" class="collection-item">Add Picture to Gallery
-      <a class="secondary-content"><i class="material-icons">add</i></a>
-    </li>
-  </ul>
+  <div id="pictureList">
+    <ul class="collection">
+      <li repeat.for="picture of picture.picturesArray" class="collection-item avatar">
+        <img click.trigger="viewPicture(picture)" src="http://localhost:5000/uploads/${picture.galleryId}/${picture.file.fileName}"
+          class="circle">
+        <span class="title">${picture.picture}</span>
+        <p>${picture.description}</p>
+        <div class="secondary-content">
+          <a>
+            <i click.trigger="deletePicture(picture)" class="material-icons">delete</i>
+          </a>
+        </div>
+        <div class="secondary-content">
+          <a>
+            <i click.trigger="editPicture(picture)" class="material-icons">create</i>
+          </a>
+        </div>
+      </li>
+      <li click.trigger="addPicture()" class="collection-item">Add Picture to Gallery
+        <a class="secondary-content">
+          <i class="material-icons">add</i>
+        </a>
+      </li>
+    </ul>
+  </div>
 </template>
-
